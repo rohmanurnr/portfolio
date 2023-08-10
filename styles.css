@@ -1,0 +1,107 @@
+/* Gaya umum */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Gaya khusus */
+h1 {
+  margin: 0;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+h2, h3 {
+  color: #333;
+}
+
+a {
+  color: #007bff;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* Tambahkan gaya lain sesuai kebutuhan */
+/* Gaya tombol yang interaktif */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Efek hightlight pada tautan */
+  a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+  
+  /* Efek zoom gambar */
+  .project img {
+    max-width: 100%;
+    transition: transform 0.3s ease;
+  }
+  
+  .project img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Animasi muncul */
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in {
+    animation: fade-in 1s ease;
+  }
+  
+  /* Tambahkan gaya interaktif lain sesuai kebutuhan */
+  
